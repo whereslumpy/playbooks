@@ -12,4 +12,4 @@
   #     state: present
 
   - name: Install OpenJDK
-    apt: name=openjdk-17-jdk state=latest update_cache=yes
+    apt: name=openjdk-17-jdk-headless state=latest update_cache=yes

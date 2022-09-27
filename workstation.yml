@@ -41,7 +41,4 @@
       dest: /usr/local/bin/docker-compose
       mode: u+x,g+x,o+x
 
-- hosts: localhost
-  connection: local
-  become: yes
-  include: include/openjdk.yaml
+- include: include/openjdk.yaml

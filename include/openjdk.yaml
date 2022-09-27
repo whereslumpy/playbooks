@@ -3,6 +3,8 @@
   hosts: localhost
   connection: local
   become: yes
+  vars_files:
+    - ../vars.default.yaml
   
   tasks:
 

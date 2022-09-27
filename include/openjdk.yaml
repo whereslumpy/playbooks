@@ -1,0 +1,13 @@
+---
+- name: Install OpenJDK
+  become: yes
+  
+  tasks:
+
+  - name: Add OpenJDK repository into sources list
+    ansible.builtin.apt_repository:
+      repo: deb http://apt.pop-os.org/ubuntu jammy universe
+      state: present
+
+  - name: Install OpenJDK
+    apt: name=openjdk-17-jdk state=latest update_cache=yes

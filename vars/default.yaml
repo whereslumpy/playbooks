@@ -10,7 +10,7 @@ docker_required_packages:
   - "python3-setuptools"
 docker_gpg_url: https://download.docker.com/linux/ubuntu/gpg
 docker_repo: deb https://download.docker.com/linux/ubuntu jammy stable
-docker_packges:
+docker_packages:
   - "docker-ce"
   - "docker-ce-cli"
   - "containerd.io"

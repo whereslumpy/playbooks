@@ -15,3 +15,6 @@ docker_packges:
   - "docker-ce-cli"
   - "containerd.io"
 docker_compose_url: https://github.com/docker/compose/releases/download/v2.11.1/docker-compose-darwin-x86_64
+openjdk_packages:
+  - openjdk-17-jdk-headless
+  - openjdk-11-jdk-headless

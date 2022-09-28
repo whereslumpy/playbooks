@@ -42,3 +42,5 @@
       mode: u+x,g+x,o+x
 
   - ansible.builtin.include_tasks: include/openjdk.yaml
+
+  - ansible.builtin.include_tasks: include/goodies.yaml

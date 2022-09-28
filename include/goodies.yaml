@@ -1,0 +1,4 @@
+---
+  # Note: Assumes that the universe component of the Ubuntu repository is enabled
+  - name: Install Variety
+    apt: name=variety state=latest update_cache=yes

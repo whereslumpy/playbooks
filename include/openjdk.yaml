@@ -1,17 +1,4 @@
 ---
-- name: Install OpenJDK
-  hosts: localhost
-  connection: local
-  become: yes
-  vars_files:
-    - ../vars.default.yaml
-  
-  tasks:
-
-  # - name: Add OpenJDK repository into sources list
-  #   ansible.builtin.apt_repository:
-  #     repo: deb http://apt.pop-os.org/ubuntu jammy universe
-  #     state: present
-
+  # Note: Assumes that the universe component of the Ubuntu repository is enabled
   - name: Install OpenJDK
     apt: name={{ openjdk_packages }} state=latest update_cache=yes

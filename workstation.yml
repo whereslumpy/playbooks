@@ -41,4 +41,4 @@
       dest: /usr/local/bin/docker-compose
       mode: u+x,g+x,o+x
 
-- include: include/openjdk.yaml
+  - ansible.builtin.include_tasks: include/openjdk.yaml

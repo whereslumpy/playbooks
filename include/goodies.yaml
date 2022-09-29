@@ -1,4 +1,9 @@
 ---
-  # Note: Assumes that the universe component of the Ubuntu repository is enabled
+
+  - name: Add PPA for Variety wallpaper
+    ansible.builtin.apt_repository:
+    repo: 'ppa:variety/stable'
+    # codename: jammy
+
   - name: Install Variety
     apt: name=variety state=latest update_cache=yes

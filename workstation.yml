@@ -44,3 +44,5 @@
   - ansible.builtin.include_tasks: include/openjdk.yaml
 
   - ansible.builtin.include_tasks: include/goodies.yaml
+
+  - ansible.builtin.include_tasks: include/devops.yaml

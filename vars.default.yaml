@@ -18,3 +18,5 @@ docker_compose_url: https://github.com/docker/compose/releases/download/v2.11.1/
 openjdk_packages:
   - openjdk-17-jdk-headless
   - openjdk-11-jdk-headless
+lens_desired_state: present
+lens_debian_url: https://api.k8slens.dev/binaries/Lens-2022.9.280635-latest.amd64.deb

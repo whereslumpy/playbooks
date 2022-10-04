@@ -47,4 +47,4 @@
 
   - ansible.builtin.include_tasks: include/devops.yaml
 
-  - ansible.buildin.include_tasks: include/chrome.yaml
+  - ansible.builtin.include_tasks: include/chrome.yaml
